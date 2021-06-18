@@ -79,7 +79,7 @@ function formSubmit(e) {
 
 
 function pageReloading() {
-    if (localStorage[library] != []) {
+    if (localStorage.length) {
         library = JSON.parse(localStorage.getItem('library'));
         library.forEach((e, i) => addDiv(e, i));
 
