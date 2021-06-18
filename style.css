@@ -1,0 +1,37 @@
+html,body{
+    font-family: 'Caveat', cursive;
+    margin: 50px;
+    background-image: url(https://images.unsplash.com/photo-1543497415-75c0a27177c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
+.newForm{
+    padding: 10px;
+    text-align: left;
+}
+.show{
+    display: inline-flex;
+    justify-content: space-evenly;
+    background: rgba(20, 228, 211, 0.219);
+    flex-wrap: wrap;
+}
+.show > ul{
+    text-align: left;
+    margin-left: 10px;
+    border: 3px solid mistyrose;
+    border-radius: 8px;
+}
+.show > ul > button{
+    color: purple;
+    border: 2px solid red;
+    border-radius: 10px;
+}
